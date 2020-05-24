@@ -1,0 +1,36 @@
+#formGroup {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#continueBtn {
+    background-color: #7462F3;
+    border-radius: 20px;
+    padding: 0.7rem;
+    color: white;
+    border: none;
+    font-family: inherit
+}
+
+input {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari/Edge */
+    color: white;
+}
+
+input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}

@@ -1,0 +1,41 @@
+#stepEnv {
+    padding: 10vw;
+    height: 100vh;
+    color: white;
+}
+
+#createGlobe {
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    z-index: -10
+}
+
+#continueBtn {
+    background-color: #7462F3;
+    border-radius: 20px;
+    padding: 0.7rem;
+    color: white;
+    border: none;
+    font-family: inherit;
+    position: relative;
+    z-index: 10;
+}
+
+.create-center-env {
+    max-height: 60%;
+    margin-top: -7rem;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}

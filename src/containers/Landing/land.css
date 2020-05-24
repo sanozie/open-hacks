@@ -1,0 +1,52 @@
+@keyframes infinityRotate {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+#landEnv {
+    height: 100%;
+    margin-top: -5rem;
+}
+
+#landGlobe {
+    position: absolute;
+    bottom: -100%;
+    left: 12%;
+    animation-name: infinityRotate;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.landBtnRow {
+    padding: 0.5rem 0;
+}
+
+#createBtn {
+    background: #7462F3;
+    border: none;
+}
+
+#seeWorldView {
+    border: 1px solid #7462F3;
+    background: none;
+}
+
+.landingBtn {
+    font-size: 1rem;
+    padding: 0.5rem 5rem;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+}
+
+#landEnv h1 {
+    font-weight: bold;
+    font-size: 3.8rem;
+    letter-spacing: 0.1rem;
+    margin: 1.4rem;
+}

@@ -1,0 +1,57 @@
+//Fonts
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
+}
+
+@mixin center {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin center-vert {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+@mixin poster {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -50px;
+}
+
+.center {
+    @include center;
+}
+
+.center-vert {
+    @include center-vert;
+}
+
+.poster {
+    @include poster;
+}
+
+//bg
+body {
+    background-image: url('./imgs/bg-img/starrynight.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Product Sans"
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
